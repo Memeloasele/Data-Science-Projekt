@@ -1,0 +1,51 @@
+J -> nehmen wir später wahrscheinlich rein
+N -> braucht man eher nicht
+V -> kann man mit dazu nehmen 
+
+
+code:	eine Art ID?	66 Duplikate	J
+url:	Url zu Produkt	38 Duplikate	N
+creator: N
+created_t: token? integer	N
+created_datetime: Datum des Einfügens	N
+last_modified_t:	token? integer	N
+last_modified_datetime: Datem der letzten Änderung	N
+last_modified_by:	Nutzer mit letzter Änderung	N
+last_updated_t: token?	N
+last_updated_datetime: Datum des letzten Upodates	N
+product_name: Name des Produkts	J
+abbreviated_product_name:	Abgekürzter Name eines Produkts (manchmal gleich oder auch länger)	N
+generic_name:	Nochmal anderer Name	N
+quantity:	Menge des Produkts (Achtung! Verschiedene Einheiten)	J
+packaging:	Verpackung des Produkts(mehrere Varianten möglich, verschiedene Sprachen)	N
+packaging_tags:	Verpackung als Tag (mehrere Sprachen möglich)	N
+packaging_en:	Verpackung auf englisch (Achtung! auch andere Sprachen möglich (zB französisch)	J
+packaging_text: Detailliertere Beschreibung der Verpackung (mehrere Sprachen)
+brands:	Marken (verschiedene Sprachen möglich)	J
+brands_tags: Marken als Tags N
+brands_en: Marken auf Englisch? (verschiedene Sprachen auch möglich)	N
+categories:	Kategorie(n) des Produkts	N
+categories_tags: Kategorie(n) als Tags		N
+categories_en:	Kategorien auf englisch		J
+originis:	Herkunftsland der Zutaten	N
+origins_tags:	Land als Tag	N
+origins_en:	Herkunftsland der Zutaten auf englisch	J
+manufacturing_places:	Herstellungsort	J
+manufacturing_places_tags:	Herstellungsort als Tag	N
+labels:	Siegel	N
+labels_tags:	Siegel als Tag	N
+labels_en:	Siegel auf englisch	J
+emb_codes: Code der kennzeichnet welcher Betrieb das Produkt verpackt hat	N
+emb_codes_tags:	Code als Tag	N
+first_packaging_code_geo:	Geografische Daten des ersten Verpackens (bezieht sich auf emb_codes)	J
+cities:	? nur ein Eintrag	N
+cities_tags:	Städte als Tags, mit denen das Produkt in Verbindung steht	N
+purchase_places:	Länder, Orte in denen das Produkt verkauft wird	V
+stores:	Laden in denen das Produkt verkauft wird	V
+countries:	Länder in denen das Produkt verkauft wird (in Verbindung mit stores und purchase_places)(Achtung! Mehrere Länder möglich)	N
+countries_tags:	Länder als Tags	N
+countries_en:	Länder auf englisch	J
+
+		
+ 	
+ 
