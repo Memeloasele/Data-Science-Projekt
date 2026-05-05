@@ -13,38 +13,84 @@ last_modified_datetime: Datem der letzten Änderung	N
 last_modified_by:	Nutzer mit letzter Änderung	N
 last_updated_t: token?	N
 last_updated_datetime: Datum des letzten Upodates	N
-product_name: Name des Produkts	J
+product_name: 			Name des Produkts	J
 abbreviated_product_name:	Abgekürzter Name eines Produkts (manchmal gleich oder auch länger)	N
-generic_name:	Nochmal anderer Name	N
-quantity:	Menge des Produkts (Achtung! Verschiedene Einheiten)	J
-packaging:	Verpackung des Produkts(mehrere Varianten möglich, verschiedene Sprachen)	N
-packaging_tags:	Verpackung als Tag (mehrere Sprachen möglich)	N
-packaging_en:	Verpackung auf englisch (Achtung! auch andere Sprachen möglich (zB französisch)	J
-packaging_text: Detailliertere Beschreibung der Verpackung (mehrere Sprachen)
-brands:	Marken (verschiedene Sprachen möglich)	J
-brands_tags: Marken als Tags N
-brands_en: Marken auf Englisch? (verschiedene Sprachen auch möglich)	N
-categories:	Kategorie(n) des Produkts	N
-categories_tags: Kategorie(n) als Tags		N
-categories_en:	Kategorien auf englisch		J
-originis:	Herkunftsland der Zutaten	N
-origins_tags:	Land als Tag	N
-origins_en:	Herkunftsland der Zutaten auf englisch	J
-manufacturing_places:	Herstellungsort	J
+generic_name:			Nochmal anderer Name	N
+quantity:			Menge/Größe des Produkts(Verpackung) (Achtung! Verschiedene Einheiten)	J
+packaging:			Verpackung des Produkts(mehrere Varianten möglich, verschiedene Sprachen)	N
+packaging_tags:			Verpackung als Tag (mehrere Sprachen möglich)	N
+packaging_en:			Verpackung auf englisch (Achtung! auch andere Sprachen möglich (zB französisch)	J
+packaging_text: 		Detailliertere Beschreibung der Verpackung (mehrere Sprachen)
+brands:	M			arken (verschiedene Sprachen möglich)	J
+brands_tags: 			Marken als Tags N
+brands_en: 			Marken auf Englisch? (verschiedene Sprachen auch möglich)	N
+categories:			Kategorie(n) des Produkts	N
+categories_tags: 		Kategorie(n) als Tags		N
+categories_en:			Kategorien auf englisch		J
+originis:			Herkunftsland der Zutaten	N
+origins_tags:			Land als Tag	N
+origins_en:			Herkunftsland der Zutaten auf englisch	J
+manufacturing_places:		Herstellungsort	J
 manufacturing_places_tags:	Herstellungsort als Tag	N
-labels:	Siegel	N
-labels_tags:	Siegel als Tag	N
-labels_en:	Siegel auf englisch	J
-emb_codes: Code der kennzeichnet welcher Betrieb das Produkt verpackt hat	N
-emb_codes_tags:	Code als Tag	N
+labels:				Siegel	N
+labels_tags:			Siegel als Tag	N
+labels_en:			Siegel auf englisch	J
+emb_codes: 			Code der kennzeichnet welcher Betrieb das Produkt verpackt hat	N
+emb_codes_tags:			Code als Tag	N
 first_packaging_code_geo:	Geografische Daten des ersten Verpackens (bezieht sich auf emb_codes)	J
-cities:	? nur ein Eintrag	N
-cities_tags:	Städte als Tags, mit denen das Produkt in Verbindung steht	N
-purchase_places:	Länder, Orte in denen das Produkt verkauft wird	V
-stores:	Laden in denen das Produkt verkauft wird	V
-countries:	Länder in denen das Produkt verkauft wird (in Verbindung mit stores und purchase_places)(Achtung! Mehrere Länder möglich)	N
-countries_tags:	Länder als Tags	N
-countries_en:	Länder auf englisch	J
+cities:				? nur ein Eintrag	N
+cities_tags:			Städte als Tags, mit denen das Produkt in Verbindung steht	N
+purchase_places:		Länder, Orte in denen das Produkt verkauft wird	V
+stores:				Laden in denen das Produkt verkauft wird	V
+countries:			Länder in denen das Produkt verkauft wird (in Verbindung mit stores und purchase_places)(Achtung! Mehrere Länder möglich)	N
+countries_tags:			Länder als Tags	N
+countries_en:			Länder auf englisch	J
+ingredients_text:		Beschreibung der Zutaten	N
+ingredients_tags:		Zutaten als Tag	V
+ingredients_analysis_tags:	Zutatendetails als Tags (z.B vegan, palm-oil-free ...)	V
+allergens:			Allergene	V
+allergens_en:			? nur ein Eintrag	N
+traces:				Kann Spuren von ... enthalten (Allergene die unbeabsichtigt ins Produkt gelangen können)	N
+traces_tags:			Das gleiche als Tags	N
+traces_en:			Spuren auf englisch	V
+serving_size:			Zubereitungsgröße (Anders zu quantity wenn mehrere Portionen enthalten sind) Achtung! Verschiedene Einheiten möglich	N
+serving_size			Zubereitungsgröße ohne Einheit (nur als Zahl)	J
+no_nutrition_data:		Info, ob Nährwerte vorhanden sind	N
+additives_n:			Anzahl an Zusatzstoffen die enthalten sind im Produkt	V
+additives:			Zusatzstoffe die enthalten sind (nur 32 Einträge)	N
+additives_tags:			Tags der Zusatzstoffe als e-nummer	V
+additives_en:			Zusatzstoffe auf englisch	V
+nutriscore_score:		Numerischer Wert auf Basis von Nutriscore	N
+nutriscore_grade:		Note des Nutriscores	J
+nova_group:			Verabeitungsgrad eines Produkts (1 = unverarbeitet, 4 = Hochverarbeitet)	J
+pnns_groups_1:			Grobe Kategorisierung des Produkts	V
+pnns_groups_2:			Detailliertere Kategorisierung	V
+food_groups:			Kategorisierung des Produkts	N
+food_groups_tags:		Das gleiche als Tags	N
+food_groups_en:			Kategorisierung auf englisch	V
+states:				Bearbeitungsstatus/Vollständigkeitsgrad des Produkts	N
+states_tags:			Das gleiche als Tags	N
+states_en:			Das gleiche auf englisch	V
+brand_owner:			Markeninhaber	V
+environmental_score_score:	Umweltbelastung als numerischer Wert	N
+environmental_score_grade:	Umweltbelastung als Note	J
+nutrient_level_tags:		Bewertung des Nährwerteprofils	V
+product_quantity:		Nettogewicht (gleich wie quantity, aber als numerischer Wert ohne Einheit) wahrscheinlich in gramm	J
+owner:				? ähnlich wie brand_owner	N
+data_quality_errors_tags:	Warnhinweise	V
+unique_scans_n:			Anzahl, wie oft Produkt in der App gescannt wurde	J
+popularity_tags:		Tags über Beliebtheit des Produkts (Zusammenhang zu unique_scans_n)	N
+completeness:			Gibt an wie viele der wichtigen Felder ausgefüllt sind	J
+last_image_t:			Token für Upload des letzten Bildes?	N
+last_image_datetime:		Datum des letzten Uploads des Bildes?	N
+main_category:			Hauptkategorie des Produkts (allgemeiner als categories)	N
+main_category:			Hauptkategorie auf englisch	J
+image_url:			Url zum Hauptfoto des Produkts	N
+image_small_url:		Verkleinerte Version des Bilds	N
+image_ingredients_url:		Url zum Hauptfoto der Zutaten	N
+image_ingredients_small_url:	Verkleinerte Version		N
+image_nutrition_url:		Url zum Hauptfoto der Nährwerte	N
+image_nutrition_small_url:	Verkleinerte Version		N
 
 		
  	
