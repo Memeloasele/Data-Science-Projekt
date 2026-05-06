@@ -1,0 +1,34 @@
+code:	eine Art ID?	66 Duplikate	J
+product_name: 			Name des Produkts	J
+quantity:			Menge/Größe des Produkts(Verpackung) (Achtung! Verschiedene Einheiten)	J			            
+packaging_en:			Verpackung auf englisch (Achtung! auch andere Sprachen möglich (zB französisch)	J		
+brands:				Marken (verschiedene Sprachen möglich)	J							
+categories_en:			Kategorien auf englisch		J
+origins_en:			Herkunftsland der Zutaten auf englisch	J
+manufacturing_places:		Herstellungsort	J
+labels_en:			Siegel auf englisch	J
+first_packaging_code_geo:	Geografische Daten des ersten Verpackens (bezieht sich auf emb_codes)	J
+purchase_places:		Länder, Orte in denen das Produkt verkauft wird	V
+stores:				Laden in denen das Produkt verkauft wird	V
+countries_en:			Länder auf englisch	J
+ingredients_tags:		Zutaten als Tag	V
+ingredients_analysis_tags:	Zutatendetails als Tags (z.B vegan, palm-oil-free ...)	V
+allergens:			Allergene	V
+traces_en:			Spuren auf englisch	V
+serving_quantity:		Zubereitungsgröße ohne Einheit (nur als Zahl)	J
+additives_n:			Anzahl an Zusatzstoffen die enthalten sind im Produkt	V
+additives_en:			Zusatzstoffe auf englisch	V
+nutriscore_grade:		Note des Nutriscores	J
+nova_group:			Verabeitungsgrad eines Produkts (1 = unverarbeitet, 4 = Hochverarbeitet)	J
+pnns_groups_1:			Grobe Kategorisierung des Produkts	V
+pnns_groups_2:			Detailliertere Kategorisierung	V
+food_groups_en:			Kategorisierung auf englisch	V
+states_en:			Bearbeitungsstatus/Vollständigkeitsgrad des Produkts auf englisch	V
+brand_owner:			Markeninhaber	V
+environmental_score_grade:	Umweltbelastung als Note	J
+nutrient_level_tags:		Bewertung des Nährwerteprofils	V
+product_quantity:		Nettogewicht (gleich wie quantity, aber als numerischer Wert ohne Einheit) wahrscheinlich in gramm	J
+data_quality_errors_tags:	Warnhinweise	V
+unique_scans_n:			Anzahl, wie oft Produkt in der App gescannt wurde	J
+completeness:			Gibt an wie viele der wichtigen Felder ausgefüllt sind	J
+main_category:			Hauptkategorie auf englisch	J
