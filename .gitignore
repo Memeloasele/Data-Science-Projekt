@@ -1,5 +1,9 @@
 # Large datasets
 en.openfoodfacts.org.products 2.csv
+en.openfoodfacts.org.products 2.csv.zip
+
+# macOS
+.DS_Store
 
 # Python
 __pycache__/
