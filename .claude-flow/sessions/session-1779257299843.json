@@ -1,0 +1,14 @@
+{
+  "id": "session-1779257299843",
+  "startedAt": "2026-05-20T06:08:19.843Z",
+  "cwd": "/Users/memeliqu/Data-Science-Projekt",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "endedAt": "2026-05-20T06:22:28.581Z",
+  "duration": 848738
+}
