@@ -54,7 +54,7 @@ traces:				Kann Spuren von ... enthalten (Allergene die unbeabsichtigt ins Produ
 traces_tags:			Das gleiche als Tags	N
 traces_en:			Spuren auf englisch	V
 serving_size:			Zubereitungsgröße (Anders zu quantity wenn mehrere Portionen enthalten sind) Achtung! Verschiedene Einheiten möglich	N
-serving_size			Zubereitungsgröße ohne Einheit (nur als Zahl)	J
+serving_quantity			Zubereitungsgröße ohne Einheit (nur als Zahl)	J
 no_nutrition_data:		Info, ob Nährwerte vorhanden sind	N
 additives_n:			Anzahl an Zusatzstoffen die enthalten sind im Produkt	V
 additives:			Zusatzstoffe die enthalten sind (nur 32 Einträge)	N

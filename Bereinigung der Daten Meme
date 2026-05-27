@@ -1,0 +1,17 @@
+packaging:			Verpackung des Produkts(mehrere Varianten möglich, verschiedene Sprachen)	N
+packaging_tags:			Verpackung als Tag (mehrere Sprachen möglich)	N
+packaging_en:			Verpackung auf englisch (Achtung! auch andere Sprachen möglich (zB französisch)	J
+packaging_text: 		Detailliertere Beschreibung der Verpackung (mehrere Sprachen)
+
+manufacturing_places:		Herstellungsort	J
+manufacturing_places_tags:	Herstellungsort als Tag	N
+
+ingredients_text:		Beschreibung der Zutaten	N
+ingredients_tags:		Zutaten als Tag	V
+ingredients_analysis_tags:	Zutatendetails als Tags (z.B vegan, palm-oil-free ...)	V
+
+additives_n:			Anzahl an Zusatzstoffen die enthalten sind im Produkt	V
+additives:			Zusatzstoffe die enthalten sind (nur 32 Einträge)	N
+additives_tags:			Tags der Zusatzstoffe als e-nummer	V
+additives_en:			Zusatzstoffe auf englisch	V
+
