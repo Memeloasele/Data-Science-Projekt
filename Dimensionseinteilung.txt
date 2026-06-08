@@ -1,0 +1,68 @@
+Textdaten:
+- product_name
+- packaging_text
+- ingredients_text
+
+
+Kategorielle Daten:
+- packaging
+- brands
+- categories
+- origins
+- manufacturing_places
+- labels
+- cities
+- purchase_places
+- stores
+- countries
+- ingredients_tags
+- ingrdient_analysis_tags
+- allergens
+- traces
+- additives
+- nutriscore_grade
+- nova_group
+- pnns_groups
+- food_groups
+- brand_owner
+- environmental_score_grade
+- nutrient_levels_tags
+- owner
+- data_quality_errors_tags
+- popularity_tags
+- main_category
+
+
+Numerische Daten:
+- serving_quantity
+- additives_n
+- nutriscore_score
+- environmental_score_score
+- product_quantity
+- unique_scans_n
+- completeness
+- alle Nährwerte
+
+
+
+
+Metadaten:
+- code
+- created_datetime
+- emb-codes
+- first_packaging_code_geo
+- no_nutrition_data
+- states
+- url stuff
+- creator
+- last_modified/updated
+
+
+
+To-do:
+
+- Grenze finden ab wann wir Daten in Spalte anschauen und begründen
+- Spalte "code" (Barcode) auf Duplikate prüfen, und schauen ob das exakt gleiche Produkt mehrmals vorkommt
+
+
+
